@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FB1EAFDE-6885-4CE0-BD01-DA1238BA3C0E}</ProjectGuid>
+    <ProjectGuid>{0670CA39-2DA3-4D1A-BF1C-AF17A9E23247}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RentManagementSystem.Data</RootNamespace>
-    <AssemblyName>RentManagementSystem.Data</AssemblyName>
+    <RootNamespace>RentManagementSystem.Infrastructure</RootNamespace>
+    <AssemblyName>RentManagementSystem.Infrastructure</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -51,11 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Bill.cs" />
-    <Compile Include="Model\Flat.cs" />
-    <Compile Include="Model\Property.cs" />
-    <Compile Include="Model\Rent.cs" />
-    <Compile Include="Model\Tenant.cs" />
+    <Compile Include="RentMangementSystemContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
